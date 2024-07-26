@@ -1,0 +1,44 @@
+.zoom {
+    height: 200px;
+    overflow: hidden;
+}
+
+.zoom img {
+    object-fit: cover;
+    transition: transform 0.8s;
+    height: 100%;
+    cursor: pointer;
+}
+
+.zoom:hover img {
+    transform: scale(1.2);
+}
+
+.lem {
+    overflow: hidden;
+}
+
+.lem img {
+    object-fit: cover;
+    transition: transform 0.8s;
+    cursor: pointer;
+}
+
+.lem:hover img {
+    transform: scale(0.7);
+}
+
+.ned {
+    font-size: 3.1rem;
+    font-weight: 700;
+    width: 67%;
+}
+
+.mid {
+    font-size: 50px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.content{
+    top: 10rem
+}
