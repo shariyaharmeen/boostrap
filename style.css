@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
 .zoom {
     height: 200px;
     overflow: hidden;
@@ -6,7 +21,7 @@
 .zoom img {
     object-fit: cover;
     transition: transform 0.8s;
-    height: 100%;
+    height: auto;
     cursor: pointer;
 }
 
@@ -14,6 +29,9 @@
     transform: scale(1.2);
 }
 
+.cardid{
+    padding-top: 2rem;
+}
 .lem {
     overflow: hidden;
 }
@@ -28,10 +46,11 @@
     transform: scale(0.7);
 }
 
+
 .ned {
     font-size: 3.1rem;
     font-weight: 700;
-    width: 67%;
+   
 }
 
 .mid {
@@ -39,6 +58,59 @@
     font-weight: 600;
     text-decoration: underline;
 }
-.content{
-    top: 10rem
+
+.content {
+    top: 10rem;
+    padding: 0 8rem;
+    width: 98vw;
+    gap: 4rem;
+}
+
+.home-event-date-wrapper {
+    backdrop-filter: blur(5px);
+    background-color: #0e0d0d3b;
+    width: 11% !important;
+}
+
+.hero-content {
+    backdrop-filter: blur(5px);
+    background-color: #0e0d0d3b;
+    border-radius: 13px;
+    width: 65%;
+    padding: 2rem;
+    border: 1px solid white;
+}
+.title-hero{
+    font-size:3.5rem;
+     font-weight: 800;
+}
+.control{
+    font-size:2.6rem;
+     font-weight: 700; 
+}
+.box
+{
+    width: 90vw;
+}
+.content {
+    top: 10rem;
+}
+
+.card-content ,
+.card2
+{
+    width: 30%;
+    filter: drop-shadow(2px 4px 6px grey);
+}
+.round-image{
+    width: 90vw;
+}
+.Agenda{
+   width:30%;
+}
+.all{
+    width: 95vw;
+}
+.name{
+    gap: 5.5rem;
 }

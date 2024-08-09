@@ -1,83 +1,144 @@
-@media (min-width:300px) and (max-width:580px){
-    .box{
-        height: 20%;
+@media (min-width:300px) and (max-width:580px) {
+    .box {
+        width: 100vw !important;
     }
-    
-    .wrap{
+.hero-content{
+    width: 100vw;
+}
+ 
+.fullbox{
+    width: 100%;
+}
+    .wrap {
         display: flex;
         flex-wrap: wrap;
+        width: 100%;
     }
-    .commom{
+   
+    .commom {
         display: flex;
         flex-wrap: wrap;
-    }
-    .img1{
-        height: auto;
-    }
-    .content{
-        top: 3rem;
-        font-size: 10px;
-    }
-    .ned{
-        font-size: 23px;
-    }
-    .theme{
-        font-size: 24px;
-    }
-    .mid{
-        font-size: 27px;
-    }
-    .tool{
-        flex-direction: column;
-      
     }
 
-    .lem img{
+    .img1 {
+        height: auto;
+    }
+
+    .more {
+        width: 100%;
+    }
+
+    .card-content,
+    .card2 {
+        width: 100%;
+    }
+    
+
+    .content {
+        top: 3rem;
+        font-size: 10px;
+        top: 6rem;
+        flex-direction: column;
+        padding: 0;
+        width: 100%;
+    }
+
+    .ned {
+        font-size: 23px;
+    }
+
+    .theme {
+        font-size: 24px;
+    }
+
+    .mid {
+        font-size: 27px;
+    }
+
+    .tool {
+        flex-direction: column;
+
+    }
+
+    .lem img {
         width: 100%;
         height: 300px;
     }
-    .mid{
+
+    .mid {
         font-size: 22px;
     }
-    .inte{
+
+    .inte {
         font-size: 20px;
     }
-    .contact{
-        width: 175px;
+
+    .contact {
+        width: 100%;
     }
-    .homer{
+
+    .homer {
         text-align: center;
     }
-    .email{
-        width:175px;
-        
+
+    .email {
+        width: 175px;
+
     }
-    .name{
+
+    .name {
         display: flex;
         flex-wrap: wrap;
+        gap: 2rem;
     }
-    .round{
+
+    .round {
         height: auto;
     }
+    .all{
+        flex-wrap: wrap;
+    }
 
-    
+    .Agenda {
+        width: 100% !important;
+    }
+    .title-hero {
+        font-size: 2.5rem!important;
+    }
+    .control{
+        font-size: 2rem!important;
+    }
 }
 
-@media(min-width:581px) and (max-width:770px){
-    .tool{
-       width:min-content;
+@media(min-width:581px) and (max-width:770px) {
+    .tool {
+        width: min-content;
     }
-    .expert{
+    
+   
+
+    .expert {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-}
-
-@media(min-width:771px) and (max-width:990px){
-    .tool{
-       flex-wrap: wrap;
-       gap: 2px !important;
+    .Agenda{
+        width: 100%;
     }
 }
 
+@media(min-width:771px) and (max-width:990px) {
+    .tool {
+        flex-wrap: wrap;
+        gap: 2px !important;
+    }
+    .Agenda{
+        width: 100%;
+    }
+   
+}
+@media(min-width:991px) and (max-width:1950px) {
+    .name{
+        gap: 7rem !important;
+    }
+}
