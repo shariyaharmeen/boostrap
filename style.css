@@ -112,5 +112,6 @@ body {
     width: 95vw;
 }
 .name{
-    gap: 5.5rem;
+   
+    width: 50%!important;
 }
